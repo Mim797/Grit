@@ -53,8 +53,8 @@ android {
     compileSdk = libs.versions.compileSdk.get().toInt()
 
     defaultConfig {
-        applicationId = "com.shub39.grit"
-        minSdk = libs.versions.minSdk.get().toInt()
+       applicationId = "com.shub39.grit"
+        minSdk = 26
         targetSdk = libs.versions.targetSdk.get().toInt()
         versionCode = appVersionCode
         versionName = appVersionName
